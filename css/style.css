@@ -1,0 +1,80 @@
+@font-face {
+  font-family: "Inter";
+  src: url(../fonts/InterRegular.woff2) format("woff2");
+  font-weight: 400;
+  font-display: swap;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  background-color: #454d5c;
+}
+
+.user-card {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 16px 24px 16px 16px;
+  border-radius: 20px;
+  border: 1px solid #2A2F37;
+  background-color: #1A1D22;
+}
+
+.user-card__avatar {
+  height: 72px;
+  width: 72px;
+  border-radius: 100px;
+}
+
+.user-card__info {
+
+}
+
+.user-card__name {
+  margin: 0 0 8px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: 0;
+  color: #F3F4F6;
+}
+
+.user-card__description {
+  margin: 0 0 13px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 0;
+  color: #9CA3AF;
+}
+
+.user-card__button {
+  height: 33px;
+  width: fit-content;
+  min-width: 90px;
+  padding: 0 12px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  cursor: pointer;
+  user-select: none;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 33px;
+  letter-spacing: 0;
+  color: #F3F4F6;
+  background-color: #00447C;
+  transition: .3s;
+}
+
+.user-card__button:hover {
+  background-color: #003057;
+}
+
+.user-card__button:active {
+  background-color: #066fc4;
+}
